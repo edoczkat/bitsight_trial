@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*
+   Copyright (c) 2016-present, CloudZero, Inc. All rights reserved.
+   Licensed under the BSD-style license. See LICENSE file in the project root for full license information.
+*/
+.product-table {
+  max-height: 800px;
+  overflow: auto;
+}
+
+.product-table table {
+  position: static;
+  width: fixed;
+  border: 1px solid;
+}
+
+.product-table th {
+  font-size: 14px;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  width: 1%;
+  height: 1%;
+  border: 1px solid;
+}
+.product-table td {
+  font-size: 14px;
+  height: 10px;
+  border: 1px solid;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width:10%;
+  height:auto;
+}
+
+.product-table table tbody tr:hover {
+  background-color: lightblue;
+}
